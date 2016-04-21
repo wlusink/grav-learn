@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-There are some advanced features in the blueprints which allow you to extend them and to have dynamic fields.
+In this page, we will take a look at some of the advanced features available in blueprints which allow you to extend their functionality and utilize dynamic fields.
 
 ## Defining Validation Rules
 
@@ -245,3 +245,4 @@ For backwards compatibility, you can specify divider in the last (3rd) parameter
 ``` php
 $tabs = $blueprint->get('form/fields/tabs', null, '/');
 ```
+

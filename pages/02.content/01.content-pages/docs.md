@@ -54,7 +54,7 @@ All content pages are located in the `/user/pages` folder. Each **page** should 
 
 Grav understands that any integer value followed by a period will be solely for the purpose of ordering, and is removed internally in the system.  For example, if you have a folder named `01.home`, Grav will treat this folder as `home`, but will ensure that with default ordering, it comes before `02.blog`.
 
-![Grav Folder Example](page-folders.png)
+![Grav Folder Example](page-folders.png?classes=shadow)
 
 Your site must have an entry-point so that it knows where to go when you point your browser to the root of your site. For example if you were to enter `http://yoursite.com` in your browser,  by default, Grav expects an alias `home/`, but you can override the home location by changing the `home.alias` option in the [Grav configuration file](../../basics/grav-configuration).
 
